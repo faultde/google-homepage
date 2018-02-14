@@ -1,6 +1,14 @@
+body{
+	margin: 20px 70px;
+	text-align: center;
+}
+
+
 .Navbar{
 	list-style: none;
+	background-color: #efefef;
 }
+
 li{
 	list-style: none;
 	display: inline;
@@ -12,4 +20,26 @@ li{
 .right{
 	float:right;
 
+}
+
+.GoogleIMG{
+
+	display: block;
+	padding-top: 200px;
+}
+input[type=text]{
+	width: 300px;
+}
+.search{
+	padding:20px;
+}
+button {
+	margin-top:  10px;
+}
+
+.Footer{
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
